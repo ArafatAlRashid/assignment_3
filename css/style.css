@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	overflow: hidden;
+}
+
+.wrapper{
+	width: 80%;
+	margin-right: 8%;
+	margin-left: 15%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.logo{
+	float: left;
+	width: 20%;
+}
+
+.logo a{
+	text-decoration: none;
+	color: #172443;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-weight: bold;
+	
+}
+
+.logo a p{
+	margin-top: 70px;
+}
+.nav {
+	float: right;
+	width: 75%;
+}
+
+.nav ul {
+	list-style-type: none;
+	text-align: right;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin-top: 55px;
+}
+
+.nav ul a {
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px 40px;
+	color: #1A2545;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.nav ul a:hover {
+	color: #3FA9F5;
+}
+
+.banner{
+	padding-top: 160px;
+}
+
+.black{
+	color: #354052;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+.deep{
+	color: #1A2545;
+	font-size: 50px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin-top: 0px;
+	position: relative;
+	bottom: 15px;	
+}
+
+.blue{
+	font-family: sans-serif;
+	color: #3FA9F5;
+	text-transform: uppercase;
+	font-size: 50px;
+	margin-top: 0px;
+	position: relative;
+	bottom: 50px;
+}
+
+.txt {
+	font-weight: lighter;
+	font-family: sans-serif;
+	color: #A6AFC6;
+	font-size: 15px;
+	position: relative;
+	bottom: 75px;	
+}
+
+button {
+	padding: 0px 45px;
+	background: transparent;
+	border: 2px #354051 solid;
+	border-radius: 30px;
+	cursor: pointer;
+	position: relative;
+	bottom: 60px;
+}
+
+button p{
+	font-family: monospace;
+	font-size: 16px;
+}
